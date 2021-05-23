@@ -1,0 +1,99 @@
+.appointment {
+  background: #000;
+  height: 120px;
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0 -12px 22px 0 rgba(82, 87, 104, 0.05),
+    0 12px 22px 0 rgba(82, 87, 104, 0.1);
+  border: solid 1px #f8f8f9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.appointment__info {
+  border-bottom: 1px solid #f6f6f6;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.appointment__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment__title > h3 {
+  font-size: 20px;
+}
+
+.appointment__info > p {
+  color: #75737a;
+  font-size: 12px;
+}
+
+.appointment__members {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex: 1;
+}
+
+.appointment__membersList {
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.appointment__membersList > p:first-of-type {
+  border-radius: 50%;
+  width: 25px;
+  background-color: rgba(251, 65, 107, 0.5);
+  text-align: center;
+}
+
+.appointment__membersList > p {
+  border-radius: 50%;
+  width: 25px;
+  background-color: rgba(4, 155, 250, 0.5);
+}
+
+.appointment__membersList > p:last-of-type {
+  border-radius: 50%;
+  width: 25px;
+  background-color: rgba(255, 195, 0, 0.5);
+  text-align: center;
+}
+
+.appointment__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid purple;
+  border-radius: 20%;
+  color: purple;
+  padding: 3px;
+}
+
+@media only screen and (max-width: 650px) {
+  .appointment {
+    background: #000;
+    width: 100%;
+    height: 100px;
+    flex-grow: 1;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 -12px 22px 0 rgba(82, 87, 104, 0.05),
+      0 12px 22px 0 rgba(82, 87, 104, 0.1);
+    border: solid 1px #f8f8f9;
+    background-color: #ffffff;
+  }
+}

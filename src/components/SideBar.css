@@ -1,0 +1,11 @@
+.sidebar {
+  height: 120vh;
+  width: 10vw;
+  background-image: linear-gradient(to bottom, #53009e, #8d57c6);
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}
