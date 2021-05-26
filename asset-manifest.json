@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zeplin-ui/static/css/main.c48b6cf1.chunk.css",
+    "main.js": "/zeplin-ui/static/js/main.a677a1bd.chunk.js",
+    "main.js.map": "/zeplin-ui/static/js/main.a677a1bd.chunk.js.map",
+    "runtime-main.js": "/zeplin-ui/static/js/runtime-main.77e4ff1c.js",
+    "runtime-main.js.map": "/zeplin-ui/static/js/runtime-main.77e4ff1c.js.map",
+    "static/js/2.0bdba71b.chunk.js": "/zeplin-ui/static/js/2.0bdba71b.chunk.js",
+    "static/js/2.0bdba71b.chunk.js.map": "/zeplin-ui/static/js/2.0bdba71b.chunk.js.map",
+    "static/js/3.d44dffdf.chunk.js": "/zeplin-ui/static/js/3.d44dffdf.chunk.js",
+    "static/js/3.d44dffdf.chunk.js.map": "/zeplin-ui/static/js/3.d44dffdf.chunk.js.map",
+    "index.html": "/zeplin-ui/index.html",
+    "static/css/main.c48b6cf1.chunk.css.map": "/zeplin-ui/static/css/main.c48b6cf1.chunk.css.map",
+    "static/js/2.0bdba71b.chunk.js.LICENSE.txt": "/zeplin-ui/static/js/2.0bdba71b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77e4ff1c.js",
+    "static/js/2.0bdba71b.chunk.js",
+    "static/css/main.c48b6cf1.chunk.css",
+    "static/js/main.a677a1bd.chunk.js"
+  ]
+}
