@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Appointment.css";
 import Switch from "@material-ui/core/Switch";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
