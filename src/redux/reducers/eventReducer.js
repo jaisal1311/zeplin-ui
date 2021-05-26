@@ -139,7 +139,6 @@ export const eventReducer = (state = initState, { type, payload }) => {
         };
         return newState;
       }
-      return state;
     default:
       return state;
   }
