@@ -102,43 +102,18 @@ const initState = {
 export const eventReducer = (state = initState, { type, payload }) => {
   switch (type) {
     case eventActions.TOGGLE_EVENT:
-      if (payload.type === "sales") {
-        const newSales = state.sales.map((event) => {
-          if (event.id === payload.id) {
-            event.isEnabled = !event.isEnabled;
-          }
-          return event;
-        });
-        const newState = {
-          ...state,
-          sales: newSales,
-        };
-        return newState;
-      } else if (payload.type === "tech") {
-        const newSales = state.tech.map((event) => {
-          if (event.id === payload.id) {
-            event.isEnabled = !event.isEnabled;
-          }
-          return event;
-        });
-        const newState = {
-          ...state,
-          tech: newSales,
-        };
-        return newState;
-      } else {
-        const newSales = state.marketing.map((event) => {
-          if (event.id === payload.id) {
-            event.isEnabled = !event.isEnabled;
-          }
-          return event;
-        });
-        const newState = {
-          ...state,
-          marketing: newSales,
-        };
-        return newState;
-      }
+      const newEvents = state[payload.type].map((event) => {
+        if (event.id === payload.id) {
+          event.isEnabled = !event.isEnabled;
+        }
+        return event;
+      });
+      const newState = {
+        ...state,
+        [payload.type]: newEvents,
+      };
+
+      return newState;
     default:
       return state;
   }

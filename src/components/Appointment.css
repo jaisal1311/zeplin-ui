@@ -49,8 +49,10 @@
 .appointment__membersList {
   height: 25px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   color: white;
+  font-size: 10px;
 }
 
 .appointment__membersList > p:first-of-type {

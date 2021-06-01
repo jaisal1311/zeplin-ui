@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Home.css";
 import Sidebar from "./SideBar";
 import Body from "./Body";
-import { useDispatch, useSelector } from "react-redux";
 
 const Home = () => {
   return (
